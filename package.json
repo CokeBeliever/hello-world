@@ -1,0 +1,51 @@
+{
+  "name": "hello-world",
+  "private": true,
+  "packageManager": "pnpm@7.3.0",
+  "description": "A chat application",
+  "keywords": [
+    "chat"
+  ],
+  "homepage": "https://github.com/CokeBeliever/hello-world#readme",
+  "bugs": {
+    "url": "https://github.com/CokeBeliever/hello-world/issues"
+  },
+  "license": "MIT",
+  "author": "CokeBeliever",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CokeBeliever/hello-world.git"
+  },
+  "scripts": {
+    "cz": "czg",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.4.4",
+    "@typescript-eslint/eslint-plugin": "^5.54.0",
+    "@typescript-eslint/parser": "^5.54.0",
+    "cz-git": "^1.5.2",
+    "czg": "^1.5.2",
+    "eslint": "^8.35.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-jsonc": "^2.6.0",
+    "eslint-plugin-markdown": "^3.0.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.9.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.2",
+    "prettier": "^2.8.4",
+    "typescript": "^4.9.5"
+  },
+  "engines": {
+    "node": ">= 16"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-git"
+    }
+  },
+  "lint-staged": {
+    "*.{vue,js,ts,jsx,tsx,md,json}": "eslint --fix"
+  }
+}
