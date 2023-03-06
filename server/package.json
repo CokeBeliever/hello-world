@@ -1,0 +1,26 @@
+{
+  "name": "@hello-world/server",
+  "version": "1.0.0",
+  "description": "HelloWorld server",
+  "scripts": {
+    "dev": "nodemon --watch src -e ts --exec ts-node -r tsconfig-paths/register --files ./src/index.ts"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^9.0.0",
+    "koa": "^2.14.1",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^12.0.0",
+    "mysql2": "^3.2.0",
+    "sequelize": "^6.29.0"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.1",
+    "@types/koa": "^2.13.5",
+    "@types/koa-bodyparser": "^4.3.10",
+    "@types/koa-router": "^7.4.4",
+    "@types/node": "^18.14.6",
+    "nodemon": "^2.0.21",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.1.2"
+  }
+}
