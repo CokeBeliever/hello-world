@@ -1,0 +1,16 @@
+{
+  "name": "@hello-world/web-client",
+  "version": "1.0.0",
+  "description": "HelloWorld web client",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "nuxt": "^3.2.3",
+    "sass": "^1.58.3"
+  }
+}
